@@ -1,2 +1,2 @@
 # rsundermanncom
-This is the repository for my curriculum vitae. [https://raphael-sundermann.com/](raphael-sundermann.com)
+This is the repository for my curriculum vitae. [raphael-sundermann.com](https://raphael-sundermann.com/)
