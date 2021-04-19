@@ -1,8 +1,24 @@
 # rsundermanncom
-This is the repository for my curriculum vitae. [raphael-sundermann.com](https://raphael-sundermann.com/)
-## Structure
- To be made!
-# Projects
-## FinaFix
-### About
-More information will be added
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
