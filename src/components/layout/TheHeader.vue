@@ -7,9 +7,9 @@
                 </div>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
                     <li><a href="#">Curriculum Vitae</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -40,9 +40,14 @@ li {
     margin: 0 0.5rem;
 }
 
-a:active, a:hover, a:visited, a {
+a:visited, a {
     color: black;
     text-decoration: none;
+}
+
+a:active, a:hover {
+    color: orangered;
+    border-bottom: 1px solid orangered;
 }
 
 .nav__logo > h1 {
