@@ -13,12 +13,21 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Yeseva One', cursive;
+}
+
 body {
   margin: 0;
-  background-color: black;
+}
+
+.branding__color__bright {
+  color: orangered;
 }
 </style>
