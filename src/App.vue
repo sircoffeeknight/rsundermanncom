@@ -1,13 +1,18 @@
 <template>
   <TheHeader/>
+  <the-info-banner
+  :currentApplicationNBR="12">
+  </the-info-banner>
 </template>
 
 <script>
 import TheHeader from "./components/layout/TheHeader.vue";
+import TheInfoBanner from "./components/layout/TheInfoBanner.vue";
 
 export default {
   components: {
     TheHeader,
+    TheInfoBanner,
   }
 }
 </script>

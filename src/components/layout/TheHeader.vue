@@ -30,6 +30,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    width: 80rem;
+    margin: 0 auto;
     padding: 0.5rem;
     color: black;
 }
@@ -64,6 +66,5 @@ a:active, a:hover {
     background-size: 50%;
     background-repeat: no-repeat;
     height: 100%;
-    padding:0 20rem 0 20rem;
 }
 </style>
