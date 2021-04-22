@@ -8,6 +8,9 @@
                 <div class="info__banner__cApp">
                     Current Applications: {{ currentApplicationNBR }}
                 </div>
+                <div class="info__banner__pServer">
+                    Server Status: Online
+                </div>
             </div>
         </div>
     </section>
@@ -33,8 +36,10 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     width: 80rem;
     height: 100%;
+    margin: 0 auto;
 }
 
 .info__banner__inner > div {

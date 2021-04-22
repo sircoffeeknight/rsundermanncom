@@ -3,16 +3,21 @@
   <the-info-banner
   :currentApplicationNBR="12">
   </the-info-banner>
+  <Home/>
 </template>
 
 <script>
 import TheHeader from "./components/layout/TheHeader.vue";
 import TheInfoBanner from "./components/layout/TheInfoBanner.vue";
 
+//Temporary
+import Home from "./pages/Home.vue";
+
 export default {
   components: {
     TheHeader,
     TheInfoBanner,
+    Home,
   }
 }
 </script>
