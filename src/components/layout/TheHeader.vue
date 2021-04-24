@@ -26,7 +26,12 @@ nav {
     align-items: baseline;
     width: 80rem;
     margin: 0 auto;
-    color: black;
+    color: white;
+}
+
+.nav__logo > h1 {
+    font-size: 2rem;
+    color: white;
 }
 
 ul {
@@ -39,25 +44,12 @@ li {
 }
 
 a:visited, a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:active, a:hover {
     color: orangered;
     border-bottom: 1px solid orangered;
-}
-
-.nav__logo > h1 {
-    font-size: 2rem;
-}
-
-#hero {
-    background: url("../../assets/fox_left.png");
-    background-attachment: fixed;
-    background-position: top;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    height: 100%;
 }
 </style>
