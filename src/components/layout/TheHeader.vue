@@ -1,28 +1,22 @@
 <template>
     <section>
-        <div id="hero">
-            <nav>
-                <div class="nav__logo">
-                    <h1><span class="branding__color__bright">Raphael</span> Sundermann</h1>
-                </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Curriculum Vitae</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <section>
-                <!-- Hero Text -->
-            </section>
-        </div>
+        <nav>
+            <div class="nav__logo">
+                <h1><span class="branding__color__bright">Raphael</span> Sundermann</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Curriculum Vitae</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </section>
 </template>
 
 <style scoped>
 section {
     width: 100%;
-    height: 30rem;
     margin: 0 auto;
 }
 
@@ -32,7 +26,6 @@ nav {
     align-items: baseline;
     width: 80rem;
     margin: 0 auto;
-    padding: 0.5rem;
     color: black;
 }
 
