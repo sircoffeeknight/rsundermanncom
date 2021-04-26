@@ -81,5 +81,6 @@ nav > ul {
     background-attachment: fixed;
     background-size: cover;
     height: 40rem;
+    border-bottom: 3rem solid rgba(43, 43, 43, 1);
 }
 </style>
