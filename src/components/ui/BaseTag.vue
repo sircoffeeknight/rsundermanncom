@@ -31,4 +31,8 @@ export default {
 .os {
     background-color: rgb(0, 219, 0);
 }
+
+.software {
+    background-color: rgb(219, 142, 0);
+}
 </style>

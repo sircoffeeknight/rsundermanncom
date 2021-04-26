@@ -6,15 +6,15 @@
             </div>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
                 <li><a href="#">Curriculum Vitae</a></li>
                 <li><a href="#">Projects</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <div class="hero">
             <MeCard/>
-        </div>    
+        </div>
     </section> 
 </template>
 
@@ -33,11 +33,16 @@ export default {
 
 section {
     color: white;
+    margin-bottom: 3rem;
 }
 
 /* Nav Area */
 nav {
+    z-index: 1000;
+    position: fixed;
     display: flex;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem 0 1rem;

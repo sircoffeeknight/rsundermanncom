@@ -15,40 +15,31 @@
                 </div>
                 <div class="meCard__tags">
                     <div class="os">
-                        <base-tag type="os" content="Windows">
-                        </base-tag>
-                        <base-tag type="os" content="Linux">
-                        </base-tag>
+                        <base-tag type="os" content="Windows"></base-tag>
+                        <base-tag type="os" content="Linux"></base-tag>
                     </div>
                     <div class="backend">
-                        <base-tag type="backend" content="PHP 7">
-                        </base-tag>
-                        <base-tag type="backend" content="Symphony">
-                        </base-tag>
-                        <base-tag type="backend" content="laravel">
-                        </base-tag>
-                        <base-tag type="backend" content="NodeJS">
-                        </base-tag>
-                        <base-tag type="backend" content="Java">
-                        </base-tag>
-                        <base-tag type="backend" content="C#">
-                        </base-tag>
-                        <base-tag type="backend" content="Python">
-                        </base-tag>
+                        <base-tag type="backend" content="PHP 7"></base-tag>
+                        <base-tag type="backend" content="Symphony"></base-tag>
+                        <base-tag type="backend" content="laravel"></base-tag>
+                        <base-tag type="backend" content="NodeJS"></base-tag>
+                        <base-tag type="backend" content="Java"></base-tag>
+                        <base-tag type="backend" content="C#"></base-tag>
+                        <base-tag type="backend" content="Python"></base-tag>
                     </div>
                     <div class="frontend">
-                        <base-tag type="frontend" content="VUE/VUECLI">
-                        </base-tag>
-                        <base-tag type="frontend" content="VUE-Router">
-                        </base-tag>
-                        <base-tag type="frontend" content="VUEX">
-                        </base-tag>
-                        <base-tag type="frontend" content="javaScript">
-                        </base-tag>
-                        <base-tag type="frontend" content="ReactJS">
-                        </base-tag>
-                        <base-tag type="frontend" content="Angular">
-                        </base-tag>
+                        <base-tag type="frontend" content="VUE/VUECLI"></base-tag>
+                        <base-tag type="frontend" content="VUE-Router"></base-tag>
+                        <base-tag type="frontend" content="VUEX"></base-tag>
+                        <base-tag type="frontend" content="javaScript"></base-tag>
+                        <base-tag type="frontend" content="ReactJS"></base-tag>
+                        <base-tag type="frontend" content="Angular"></base-tag>
+                    </div>
+                    <div class="software">
+                        <base-tag type="software" content="PHPStorm"></base-tag>
+                        <base-tag type="software" content="VS-Code"></base-tag>
+                        <base-tag type="software" content="GitHub"></base-tag>
+                        <base-tag type="software" content="Unity3D"></base-tag>
                     </div>
                 </div>
                 <div class="meCard__text">
@@ -73,10 +64,10 @@
 .meCard {
     position: absolute;
     display: flex;
-    height: 12rem;
+    align-items: center;
     bottom: -3rem;
     background-color: rgba(43, 43, 43, 1);
-    border-radius: 6rem;
+    /*border-radius: 6rem;*/
     padding: 1rem;
 }
 
@@ -103,7 +94,6 @@
 .meCard__baseStats > ul {
     list-style: none;
     padding: 0;
-    line-height-step: 1rem;
 }
 
 .os {
@@ -124,12 +114,19 @@
     grid-area: Frontend;
 }
 
+.software {
+    display: flex;
+    gap: 0.2rem;
+    grid-area: Software;
+}
+
 .meCard__tags {
     display: grid;
     grid-template-areas: 
     'OS'
     'Backend'
-    'Frontend';
+    'Frontend'
+    'Software';
     grid-gap: 1rem;
     border-right: 1px solid #ccc;
     padding: 0 1rem 0 1rem;
