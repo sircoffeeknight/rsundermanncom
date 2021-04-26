@@ -1,19 +1,14 @@
 <template>
   <section>
-    <TheHeader/>
-    <Home/>
+    
   </section>
 </template>
 
 <script>
-import TheHeader from "./components/layout/TheHeader.vue";
-import Home from "./pages/Home.vue";
+
 
 export default {
-  components: {
-    TheHeader,
-    Home,
-  }
+  
 }
 </script>
 
