@@ -1,0 +1,142 @@
+<template>
+    <div class="meCard__wrapper">
+        <div class="meCard">
+            <div class="meCard__imageSection">
+                <img src="../assets/me.jpg" alt="">
+            </div>
+            <div class="meCard__info">
+                <div class="meCard__baseStats">
+                    <ul>
+                        <li>Name: Raphael Sundermann</li>
+                        <li>Born: 12-22-1994</li>
+                        <li>Living in: 48485 Neuenkirchen, NRW</li>
+                        <li>Status: Unemployed :(</li>
+                    </ul>
+                </div>
+                <div class="meCard__tags">
+                    <div class="os">
+                        <base-tag type="os" content="Windows">
+                        </base-tag>
+                        <base-tag type="os" content="Linux">
+                        </base-tag>
+                    </div>
+                    <div class="backend">
+                        <base-tag type="backend" content="PHP 7">
+                        </base-tag>
+                        <base-tag type="backend" content="Symphony">
+                        </base-tag>
+                        <base-tag type="backend" content="laravel">
+                        </base-tag>
+                        <base-tag type="backend" content="NodeJS">
+                        </base-tag>
+                        <base-tag type="backend" content="Java">
+                        </base-tag>
+                        <base-tag type="backend" content="C#">
+                        </base-tag>
+                        <base-tag type="backend" content="Python">
+                        </base-tag>
+                    </div>
+                    <div class="frontend">
+                        <base-tag type="frontend" content="VUE/VUECLI">
+                        </base-tag>
+                        <base-tag type="frontend" content="VUE-Router">
+                        </base-tag>
+                        <base-tag type="frontend" content="VUEX">
+                        </base-tag>
+                        <base-tag type="frontend" content="javaScript">
+                        </base-tag>
+                        <base-tag type="frontend" content="ReactJS">
+                        </base-tag>
+                        <base-tag type="frontend" content="Angular">
+                        </base-tag>
+                    </div>
+                </div>
+                <div class="meCard__text">
+                    <p class="branding__color__bright "> Hey there!</p>
+                    <p>I am <span class="branding__color__bright">Raphael Sundermann</span> a developer with 4 years professional experience! With 13 I did my first steps within the world of software development. Back then I worked on simple Websites and CMS projects. I love software and I am constantly learning new stuff!</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+</template>
+
+<style scoped>
+
+.meCard__wrapper {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    height: 40rem;
+    width: 100%;
+}
+
+.meCard {
+    position: absolute;
+    display: flex;
+    height: 12rem;
+    bottom: -3rem;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 6rem;
+    padding: 1rem;
+}
+
+.meCard__imageSection {
+    border-right: 1px solid #ccc;
+    padding: 0 1rem 0 0;
+}
+
+.meCard__imageSection > img {
+    width: 10rem;
+    border-radius: 100%;
+}
+
+.meCard__info {
+    display:flex;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.meCard__baseStats {
+    border-right: 1px solid #ccc;
+    padding: 0 1rem 0 0;
+}
+
+.meCard__baseStats > ul {
+    list-style: none;
+    padding: 0;
+    line-height-step: 1rem;
+}
+
+.os {
+    display: flex;
+    gap: 0.2rem;
+    grid-area: OS;
+}
+
+.backend {
+    display: flex;
+    gap: 0.2rem;
+    grid-area: Backend;
+}
+
+.frontend {
+    display: flex;
+    gap: 0.2rem;
+    grid-area: Frontend;
+}
+
+.meCard__tags {
+    display: grid;
+    grid-template-areas: 
+    'OS'
+    'Backend'
+    'Frontend';
+    grid-gap: 1rem;
+    border-right: 1px solid #ccc;
+    padding: 0 1rem 0 1rem;
+}
+
+.meCard__text {
+    padding: 0 0 0 1rem;
+    max-width: 30rem;
+}
+</style>

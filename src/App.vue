@@ -1,26 +1,29 @@
 <template>
   <section>
-    
+    <Header/>
   </section>
 </template>
 
 <script>
-
+import Header from "./components/layout/TheHeader.vue";
 
 export default {
-  
+  components: {
+    Header,
+  },
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
