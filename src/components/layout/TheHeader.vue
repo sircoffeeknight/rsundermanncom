@@ -5,7 +5,7 @@
                 <h1><span class="branding__color__bright">Raphael</span> Sundermann</h1>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><router-link to="/">Home</router-link></li>
                 <li><a href="#">Curriculum Vitae</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Blog</a></li>
@@ -50,15 +50,22 @@ nav {
     font-family: 'Antonio', sans-serif;
 }
 
+nav a.router-link-active {
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+
 nav a, a:visited {
     text-decoration: none;
     color: white;
+    border-bottom: 0px solid transparent;
     transition: 0.5s ease-in-out;
 }
 
 nav a:hover {
     color: orangered;
     font-size: 1.7rem;
+    border-bottom: 1px solid orangered;
     transition: 0.5s ease-in-out;
 }
 
