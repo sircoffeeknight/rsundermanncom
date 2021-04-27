@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <main>
         <base-post type="history">
             <template v-slot:header>About me</template>
             <p>I've always been very curious about software development. I wouldn't say I have a specific field I'm interested in. Since I love playing Videogames, browsing the Web and, well, using Computers, I'm interested in all the different kinds of software.</p>
@@ -34,7 +34,7 @@
             <p>I like to mess with things. Not tinker, I am awful at handy work. But I come up with so many Ideas for software that neither I or others really need. So I usually end up with one or two soon-to-be-forgotten projects every month.</p>
             <p>Books! And no that is <span class="branding__color__bright">not</span> a lie! Well at least if you include audiobooks. I like to sink myself into amazing stories and just let the time pass while I dive into some amazing fantasy worlds!</p>
         </base-post>
-    </section>
+    </main>
 </template>
 
 <script>
