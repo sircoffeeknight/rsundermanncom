@@ -2,7 +2,7 @@
     <div class="meCard__wrapper">
         <div class="meCard">
             <div class="meCard__imageSection">
-                <img src="../assets/me.jpg" alt="">
+                
             </div>
             <div class="meCard__info">
                 <div class="meCard__baseStats">
@@ -71,8 +71,12 @@
     padding: 1rem;
 }
 
-.meCard__imageSection > img {
+.meCard__imageSection {
+    background-image: url("../assets/me.jpg");
+    background-size: cover;
+    background-position: center;
     width: 10rem;
+    height: 10rem;
     border-radius: 100%;
 }
 

@@ -6,7 +6,7 @@
             </div>
             <ul>
                 <li><router-link to="/">Home</router-link></li>
-                <li><a href="#">Curriculum Vitae</a></li>
+                <li><router-link to="/curriculum">Curriculum Vitae</router-link></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
@@ -87,6 +87,7 @@ nav > ul {
     background-image: url("../assets/technologie_background.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     height: 40rem;
     border-bottom: 3rem solid rgba(43, 43, 43, 1);
 }

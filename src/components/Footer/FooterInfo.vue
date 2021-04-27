@@ -2,7 +2,7 @@
     <div class="footerCard__wrapper">
         <div class="footerCard">
             <div class="footerCard__imageSection">
-                <img src="../assets/me.jpg" alt="">
+                
             </div>
             <div class="footerCard__info">
                 <div class="footerCard__baseStats">
@@ -48,8 +48,12 @@
     padding: 1rem;
 }
 
-.footerCard__imageSection > img {
+.footerCard__imageSection {
+    background-image: url("../assets/me_alt.jpg");
+    background-size: cover;
+    background-position: center;
     width: 10rem;
+    height: 10rem;
     border-radius: 100%;
 }
 
