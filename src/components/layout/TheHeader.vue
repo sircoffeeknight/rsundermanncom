@@ -41,7 +41,7 @@ nav {
     z-index: 1000;
     position: fixed;
     display: flex;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(20, 20, 20);
     width: 100%;
     justify-content: space-between;
     align-items: center;
