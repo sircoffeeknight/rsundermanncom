@@ -9,7 +9,7 @@
                     <ul>
                         <li>Name: Raphael Sundermann</li>
                         <li>Born: 12-22-1994</li>
-                        <li>Living in: 48485 Neuenkirchen, NRW</li>
+                        <li>Living in: 48485 Neuenkirchen, NRW - Germany</li>
                         <li>Status: Unemployed :(</li>
                     </ul>
                 </div>
@@ -71,11 +71,6 @@
     padding: 1rem;
 }
 
-.meCard__imageSection {
-    border-right: 1px solid #ccc;
-    padding: 0 1rem 0 0;
-}
-
 .meCard__imageSection > img {
     width: 10rem;
     border-radius: 100%;
@@ -83,12 +78,13 @@
 
 .meCard__info {
     display:flex;
-    margin: 1rem 1rem 0 1rem;
+    margin: 0 1rem 0 1rem;
 }
 
 .meCard__baseStats {
     border-right: 1px solid #ccc;
-    padding: 0 1rem 0 0;
+    border-left: 1px solid #ccc;
+    padding: 0 1rem 0 1rem;
 }
 
 .meCard__baseStats > ul {

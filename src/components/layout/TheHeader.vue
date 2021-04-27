@@ -33,7 +33,7 @@ export default {
 
 section {
     color: white;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 /* Nav Area */
