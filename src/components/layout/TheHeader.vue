@@ -5,8 +5,8 @@
                 <h1><span class="branding__color__bright">Raphael</span> Sundermann</h1>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Curriculum Vitae</a></li>
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/curriculum">Curriculum Vitae</router-link></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
@@ -41,7 +41,7 @@ nav {
     z-index: 1000;
     position: fixed;
     display: flex;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(20, 20, 20);
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -50,15 +50,22 @@ nav {
     font-family: 'Antonio', sans-serif;
 }
 
+nav a.router-link-active {
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+
 nav a, a:visited {
     text-decoration: none;
     color: white;
+    border-bottom: 0px solid transparent;
     transition: 0.5s ease-in-out;
 }
 
 nav a:hover {
     color: orangered;
     font-size: 1.7rem;
+    border-bottom: 1px solid orangered;
     transition: 0.5s ease-in-out;
 }
 
@@ -80,6 +87,7 @@ nav > ul {
     background-image: url("../assets/technologie_background.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     height: 40rem;
     border-bottom: 3rem solid rgba(43, 43, 43, 1);
 }
