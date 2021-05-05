@@ -7,9 +7,8 @@
             <ul>
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/curriculum">Curriculum Vitae</router-link></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><router-link to="/projects">Projects</router-link></li>
+                <li><router-link to="/contact">Contact</router-link></li>
             </ul>
         </nav>
         <div class="hero">

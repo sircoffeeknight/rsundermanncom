@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import BaseTag from './components/ui/BaseTag.vue';
 import BasePost from './components/ui/BasePost.vue';
+import BaseProject from './components/ui/BaseProject.vue';
 
 library.add(faHistory);
 library.add(faGraduationCap);
@@ -21,6 +22,7 @@ app.use(Router);
 app.component('font-awesome-icon', FontAwesomeIcon);
 app.component('base-tag', BaseTag);
 app.component('base-post', BasePost);
+app.component('base-project', BaseProject);
 app.config.productionTip = false;
 
 app.mount('#app');
