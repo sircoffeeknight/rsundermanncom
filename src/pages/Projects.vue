@@ -23,7 +23,7 @@ export default {
                     title: 'raphael-sundermann.com',
                     description: 'The Website you are on right now. My online CV.',
                     skills: ['HTML', 'CSS', 'NodeJS', 'VUE/VUE-CLI', 'VUE-Router', 'javaScript'],
-                    link: '#',
+                    link: '',
                     repository: 'https://github.com/sircoffeeknight/rsundermanncom'
                 },
             ]
