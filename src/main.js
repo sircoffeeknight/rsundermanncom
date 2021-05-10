@@ -2,10 +2,17 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import Router from './router.js';
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons' 
 import { faHistory } from '@fortawesome/free-solid-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faGamepad } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import BaseTag from './components/ui/BaseTag.vue';
@@ -16,6 +23,13 @@ library.add(faHistory);
 library.add(faGraduationCap);
 library.add(faBriefcase);
 library.add(faGamepad);
+library.add(faBuilding);
+library.add(faUserSecret);
+library.add(faUsers);
+library.add(faLinkedin);
+library.add(faTwitter);
+library.add(faGithub);
+library.add(faCheckCircle);
 
 const app = createApp(App);
 app.use(Router);

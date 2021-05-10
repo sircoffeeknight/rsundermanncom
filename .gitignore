@@ -13,6 +13,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+#security
+src/components/Contact/emailjs_data.vue
+
 # Editor directories and files
 .idea
 .vscode
