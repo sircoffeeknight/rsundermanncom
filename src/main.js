@@ -13,6 +13,7 @@ import { faBuilding } from '@fortawesome/free-solid-svg-icons'
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
+import { faHamburger } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import BaseTag from './components/ui/BaseTag.vue';
@@ -30,6 +31,7 @@ library.add(faLinkedin);
 library.add(faTwitter);
 library.add(faGithub);
 library.add(faCheckCircle);
+library.add(faHamburger);
 
 const app = createApp(App);
 app.use(Router);

@@ -58,7 +58,6 @@
     display:flex;
     justify-content: center;
     height: 40rem;
-    width: 100%;
 }
 
 .meCard {
@@ -135,5 +134,42 @@
 .meCard__text {
     padding: 0 0 0 1rem;
     max-width: 30rem;
+}
+
+@media only screen and (max-width: 1722px) {
+    .meCard__text {
+        max-width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 1561px) {
+    .meCard__text {
+        display: none;
+    }
+
+    .meCard__tags {
+        border-right: none;
+        padding: 0 0 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 1224px) {
+    .meCard__info {
+        display: block;
+    }
+
+    .meCard__baseStats {
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 961px) {
+    .meCard__wrapper {
+        height: auto;
+    }
+
+    .meCard {
+        position: relative;
+    }
 }
 </style>

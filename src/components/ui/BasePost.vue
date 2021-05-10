@@ -55,4 +55,16 @@ header {
 header > h2 {
     font-size: rem;
 }
+
+@media only screen and (max-width: 1561px) {
+    section {
+        width: 60rem;
+    }
+}
+
+@media only screen and (max-width: 961px) {
+    section {
+        width: 100%;
+    }
+}
 </style>

@@ -72,10 +72,26 @@ export default {
 }
 
 .projects__item__button {
+    color: white;
     background-color: orangered;
+    transition: 0.2s ease-in-out;
 }
 
 .projects__item__button_github {
+    color: white;
     background-color: #2D333B;
+    transition: 0.2s ease-in-out;
+}
+
+.projects__item__button:hover {
+    color: orangered;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.projects__item__button_github:hover {
+    color: #2D333B;
+    background-color: white;
+    transition: 0.2s ease-in-out;
 }
 </style>

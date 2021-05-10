@@ -9,6 +9,7 @@
                 <li><router-link to="/curriculum">Curriculum Vitae</router-link></li>
                 <li><router-link to="/projects">Projects</router-link></li>
                 <li><router-link to="/contact">Contact</router-link></li>
+                <li class="icon"><a href="javascript:void(0)" @click="navbarMobile"><font-awesome-icon icon="hamburger" /></a></li>
             </ul>
         </nav>
         <div class="hero">
@@ -23,6 +24,11 @@ import MeCard from "../MeCard/MeCard.vue";
 export default {
     components: {
         MeCard,
+    },
+    methods: {
+        navbarMobile() {
+
+        }
     }
 }
 </script>
@@ -81,6 +87,10 @@ nav > ul {
     font-size: 1.2rem;
 }
 
+.icon {
+    display: none;
+}
+
 /* Hero */
 .hero {
     background-image: url("../../assets/technologie_background.jpg");
@@ -89,5 +99,22 @@ nav > ul {
     background-position: center;
     height: 40rem;
     border-bottom: 3rem solid rgba(43, 43, 43, 1);
+}
+
+@media only screen and (max-width: 961px) {
+    .hero {
+        background-image: none;
+        height: auto;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav > ul > li {
+        display: none;
+    }
+    .icon {
+        display: block;
+    }
 }
 </style>
