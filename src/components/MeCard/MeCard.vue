@@ -72,7 +72,7 @@
 }
 
 .meCard__imageSection {
-    background-image: url("../assets/me.jpg");
+    background-image: url("../../assets/me.jpg");
     background-size: cover;
     background-position: center;
     width: 10rem;

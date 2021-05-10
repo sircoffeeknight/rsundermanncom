@@ -49,7 +49,7 @@
 }
 
 .footerCard__imageSection {
-    background-image: url("../assets/me_alt.jpg");
+    background-image: url("../../assets/me_alt.jpg");
     background-size: cover;
     background-position: center;
     width: 10rem;
