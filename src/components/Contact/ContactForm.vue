@@ -96,6 +96,12 @@ input {
     height: 2rem;
 }
 
+input, textarea {
+    background-color: rgb(70,70,70);
+    border: 1px solid rgb(90, 90, 90);
+    color: white
+}
+
 input[type=submit] {
     width: 100%;
     height: 3rem;
