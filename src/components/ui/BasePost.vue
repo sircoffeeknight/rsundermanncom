@@ -67,4 +67,41 @@ header > h2 {
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 858px) {
+    section {
+        display: block;
+    }
+
+    article {
+        border-left: none;
+        border-top: 3px solid white;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+    }
+
+    .post__type {
+        margin: 0 auto; 
+        padding: 0 0 1rem 0;
+        border-left: 50px solid transparent;
+        border-bottom: 5px solid white;
+        border-right: 50px solid transparent;
+    }
+
+    .post__type > svg {
+        position: absolute;
+        left: 48%;
+        margin: -2rem auto;
+    }
+
+    article {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 488px) {
+    .post__type > svg {
+        left: 46%;
+    }
+}
 </style>

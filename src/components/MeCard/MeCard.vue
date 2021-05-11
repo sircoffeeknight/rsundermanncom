@@ -159,7 +159,13 @@
     }
 
     .meCard__baseStats {
-        border: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .meCard__tags {
+        margin-top: 1rem;
     }
 }
 
@@ -171,5 +177,33 @@
     .meCard {
         position: relative;
     }
+}
+
+@media only screen and (max-width: 858px) {
+    .meCard {
+        display: block;
+    }
+
+    .meCard__imageSection {
+        margin: 1rem auto;
+    }
+    
+    .meCard__baseStats {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .meCard__tags {
+        padding: 0;
+    }
+
+    .os, .backend, .frontend, .software {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
 }
 </style>

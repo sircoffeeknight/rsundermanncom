@@ -120,4 +120,38 @@ main {
     padding: 0.2rem;
 }
 
+@media only screen and (max-width: 1296px) {
+    main {
+        width: 100%;
+    }
+
+    .timeline__list:after {
+        z-index: -999;
+    }
+
+    .timeline__list > .timeline__item:first-child {
+        margin-top: 0;
+    }
+
+    .timeline__list > .timeline__item:nth-child(even) {
+        margin: 1rem auto;
+        left: 0;
+        border-right: 5px solid white;
+    }
+
+    .timeline__list > .timeline__item:nth-child(odd) {
+        margin: 0 auto;
+        left: 0;
+        border-left: 5px solid white;
+    }
+
+}
+
+@media only screen and (max-width: 503px) {
+    .timeline__list > .timeline__item:nth-child(odd), .timeline__list > .timeline__item:nth-child(even) {
+        width: auto;
+        border-radius: 0;
+    }
+}
+
 </style>

@@ -4,13 +4,13 @@
             <div class="branding">
                 <h1><span class="branding__color__bright">Raphael</span> Sundermann</h1>
             </div>
-            <ul>
-                <li><router-link to="/">Home</router-link></li>
-                <li><router-link to="/curriculum">Curriculum Vitae</router-link></li>
-                <li><router-link to="/projects">Projects</router-link></li>
-                <li><router-link to="/contact">Contact</router-link></li>
-                <li class="icon"><a href="javascript:void(0)" @click="navbarMobile"><font-awesome-icon icon="hamburger" /></a></li>
+            <ul id="nav__list">
+                <li><router-link to="/" @click="menuClose">Home</router-link></li>
+                <li><router-link to="/curriculum" @click="menuClose">Curriculum Vitae</router-link></li>
+                <li><router-link to="/projects" @click="menuClose">Projects</router-link></li>
+                <li><router-link to="/contact" @click="menuClose">Contact</router-link></li>
             </ul>
+            <a class="icon" href="javascript:void(0)" @click="navbarMobile"><font-awesome-icon icon="hamburger" /></a>
         </nav>
         <div class="hero">
             <MeCard/>
@@ -27,7 +27,18 @@ export default {
     },
     methods: {
         navbarMobile() {
-
+            let x = document.getElementById("nav__list");
+            if(x.className === "responsive") {
+                x.className = "";
+            } else {
+                x.className += "responsive";
+            }
+        },
+        menuClose() {
+            let x = document.getElementById("nav__list");
+            if(x.className === "responsive") {
+                x.className = "";
+            }
         }
     }
 }
@@ -116,5 +127,28 @@ nav > ul {
     .icon {
         display: block;
     }
+    nav > ul > .responsive {
+        position: relative;
+    }
+    nav > ul.responsive {
+        position: absolute;
+        display: block;
+        padding: 1rem;
+        background-color: rgb(20, 20, 20);
+        text-align: left;
+        right: 0;
+        top: 2rem;
+    }
+
+    nav > ul.responsive > li {
+        display: block;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    nav a:hover {
+        font-size: 1em;
+    }
+
 }
 </style>

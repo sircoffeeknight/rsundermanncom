@@ -22,9 +22,10 @@
                         <base-tag type="frontend" content="javaScript"></base-tag>
                     </div>
                 </div>
+                <div class="footerCard__copyright">Copyright &#169; 2021 Raphael Sundermann raphael-sundermann.com</div>
             </div>
         </div>
-        Copyright &#169; 2021 Raphael Sundermann raphael-sundermann.com
+        <div class="footer__copyright">Copyright &#169; 2021 Raphael Sundermann raphael-sundermann.com</div>
     </div>
 </template>
 
@@ -80,8 +81,61 @@
 
 .footerCard__madeWith__tags {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 0.2rem;
+}
+
+.footerCard__copyright {
+    display: none;
+}
+
+@media only screen and (max-width: 1036px) {
+    .footerCard__imageSection {
+        display: none;
+    }
+
+    .footerCard__baseStats {
+    border-left: none;
+    }
+
+    .footer__copyright {
+        position: absolute;
+        bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 876px) {
+    .footerCard__info {
+        display: block;
+    }
+    .footerCard__baseStats {
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+    .footer__copyright {
+        display: none;
+    }
+    .footerCard__copyright {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 603px) {
+    .footerCard {
+        display: block;
+        padding: 0;
+        position: relative;
+        height: auto;
+        bottom: 0;
+    }
+
+    .footerCard__wrapper {
+        height: auto;
+    }
 }
 </style>

@@ -41,4 +41,14 @@ main {
     width: 25rem;
     height: 100%;
 }
+
+@media only screen and (max-width: 1296px) {
+    main {
+        width: 100%;
+    }
+
+    ul {
+        padding: 0;
+    }
+}
 </style>

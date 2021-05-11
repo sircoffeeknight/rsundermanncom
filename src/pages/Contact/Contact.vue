@@ -49,6 +49,7 @@ main {
 
 .contact__choose > div, .contact__social {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
 }
@@ -120,5 +121,17 @@ main {
 
 .contact__routerB > svg {
     width: 100%;
+}
+
+@media only screen and (max-width: 1296px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 656px) {
+    .contact__choose, .contact__social {
+        width: auto;
+    }
 }
 </style>

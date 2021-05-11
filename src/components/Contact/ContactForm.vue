@@ -124,4 +124,9 @@ h2 {
     text-align: center;
 }
 
+@media only screen and (max-width: 534px) {
+    .contact__form {
+        width: 100%;
+    }
+}
 </style>
