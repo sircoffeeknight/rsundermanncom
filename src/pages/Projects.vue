@@ -21,10 +21,10 @@ export default {
                 },
                 {
                     title: 'FinaFix',
-                    description: 'The project I am currently working on. FinaFix is a small Symfony project. The Idea behind FinaFix is to allow the user to manage their finances including depts and a plan to get out of them.',
-                    skills: ['HTML', 'CSS', 'Symfony', 'MySQL'],
-                    link: 'https://finafix.raphael-sundermann.com/',
-                    repository: 'https://github.com/sircoffeeknight/finafix'
+                    description: 'The project I am currently working on. FinaFix is a small PHP project. The Idea behind FinaFix is, to allow the user to manage their finances, including depts, and a plan to get out of them. Currently I am deciding if I want to use Symfony or Laravel and if I want to include react or angular.',
+                    skills: ['HTML', 'CSS', 'PHP', 'MySQL'],
+                    link: '',
+                    repository: ''
                 },
             ]
         }
