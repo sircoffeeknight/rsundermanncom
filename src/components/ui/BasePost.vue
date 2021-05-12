@@ -45,6 +45,7 @@ article {
     border-left: 3px solid white;
     border-bottom-left-radius: 2rem;
     border-top-left-radius: 2rem;
+    font-size: 0.8em;
 }
 
 header {
