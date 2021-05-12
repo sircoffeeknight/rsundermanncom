@@ -9,7 +9,6 @@
                     <ul>
                         <li>Raphael Sundermann</li>
                         <li>raphael-sundermann@gmail.com</li>
-                        <li>+49 176 735 880 18</li>
                     </ul>
                 </div>
                 <div class="footerCard__madeWith">

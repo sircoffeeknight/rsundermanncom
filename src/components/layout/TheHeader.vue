@@ -104,7 +104,7 @@ nav > ul {
 
 /* Hero */
 .hero {
-    background-image: url("../../assets/technologie_background.jpg");
+    background-image: url("../../assets/mountains_background.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
