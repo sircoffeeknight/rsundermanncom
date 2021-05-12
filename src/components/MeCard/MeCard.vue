@@ -201,8 +201,6 @@
 
     .os, .backend, .frontend, .software {
         flex-wrap: wrap;
-        justify-content: center;
-        margin: 0 auto;
     }
 
 }

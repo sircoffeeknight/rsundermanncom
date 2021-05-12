@@ -16,13 +16,17 @@ const router = createRouter({
     { path: '/curriculum', component: Curriculum },
     { path: '/projects', component: Projects },
     { path: '/contact', component: Contact, children: [
-      { path: '/recruiter', component: ContactRecruiter, name: "Recruiter" },
-      { path: '/company', component: ContactCompany, name: "Company" },
-      { path: '/others', component: ContactOthers, name: "Other" },
+      { path: '/recruiter', component: ContactRecruiter, name: "Recruiter", meta: {disableScroll: true} },
+      { path: '/company', component: ContactCompany, name: "Company", meta: {disableScroll: true} },
+      { path: '/others', component: ContactOthers, name: "Other", meta: {disableScroll: true} },
     ] },
   ],
-  scrollBehavior () {
-    return {left: 0, top: 0}
+  scrollBehavior (to) {
+    if (to.matched.some(m => m.meta.disableScroll)) {
+      return;
+    } else {
+      return {left: 0, top: 0};
+    }
   }
 });
 

@@ -134,4 +134,16 @@ main {
         width: auto;
     }
 }
+
+@media only screen and (max-width: 464px) {
+    .contact__routerB, 
+    .contact__linkedIn,
+    .contact__github,
+    .contact__twitter {
+        padding: 1rem;
+        width: 5rem;
+        height: 5rem;
+        font-size: 0.6em;
+    }
+}
 </style>

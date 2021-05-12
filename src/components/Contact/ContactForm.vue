@@ -113,6 +113,15 @@ input[type=submit] {
     transition: 0.2s ease-in-out;
 }
 
+textarea,
+input.text,
+input[type=submit],
+input[type=button],
+input[type=text] {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 button:hover {
     background-color: white;
     color: orangered;
@@ -127,6 +136,12 @@ h2 {
 @media only screen and (max-width: 534px) {
     .contact__form {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 464px) {
+    label, input[type=submit] {
+        font-size: 1em;
     }
 }
 </style>

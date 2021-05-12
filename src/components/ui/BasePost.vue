@@ -104,4 +104,10 @@ header > h2 {
         left: 46%;
     }
 }
+
+@media only screen and (max-width: 464px) {
+    article {
+        font-size: 0.6em;
+    }
+}
 </style>
