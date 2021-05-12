@@ -10,7 +10,7 @@
                         <li>Name: Raphael Sundermann</li>
                         <li>Born: 12-22-1994</li>
                         <li>Living in: 48485 Neuenkirchen, NRW - Germany</li>
-                        <li>Status: Unemployed :(</li>
+                        <li>Status: Looking for a Job</li>
                     </ul>
                 </div>
                 <div class="meCard__tags">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="meCard__text">
                     <p class="branding__color__bright "> Hey there!</p>
-                    <p>I am <span class="branding__color__bright">Raphael Sundermann</span> a developer with 4 years professional experience! With 13 I did my first steps within the world of software development. Back then I worked on simple Websites and CMS projects. I love software and I am constantly learning new stuff!</p>
+                    <p>I am <span class="branding__color__bright">Raphael Sundermann</span> a developer with 4 years professional experience! I started to learn development at the age of 13. Back then I worked on simple Websites and CMS projects. I love software and I am constantly learning new stuff!</p>
                 </div>
             </div>
         </div>    

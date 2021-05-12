@@ -23,8 +23,8 @@ export default {
                     title: 'FinaFix',
                     description: 'The project I am currently working on. FinaFix is a small Symfony project. The Idea behind FinaFix is to allow the user to manage their finances including depts and a plan to get out of them.',
                     skills: ['HTML', 'CSS', 'Symfony', 'MySQL'],
-                    link: '',
-                    repository: ''
+                    link: 'https://finafix.raphael-sundermann.com/',
+                    repository: 'https://github.com/sircoffeeknight/finafix'
                 },
             ]
         }
