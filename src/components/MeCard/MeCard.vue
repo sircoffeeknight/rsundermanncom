@@ -20,7 +20,7 @@
                     </div>
                     <div class="backend">
                         <base-tag type="backend" content="PHP 7"></base-tag>
-                        <base-tag type="backend" content="Symphony"></base-tag>
+                        <base-tag type="backend" content="Symfony"></base-tag>
                         <base-tag type="backend" content="laravel"></base-tag>
                         <base-tag type="backend" content="NodeJS"></base-tag>
                         <base-tag type="backend" content="Java"></base-tag>
