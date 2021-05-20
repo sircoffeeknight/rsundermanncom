@@ -21,7 +21,7 @@
                         <base-tag type="frontend" content="javaScript"></base-tag>
                     </div>
                 </div>
-                <div class="footerCard__copyright">Copyright &#169; 2021 Raphael Sundermann raphael.sundermann.com</div>
+                <div class="footerCard__copyright">Copyright &#169; 2021 Raphael Sundermann raphael-sundermann.com</div>
             </div>
         </div>
         <div class="footer__copyright">Copyright &#169; 2021 Raphael Sundermann raphael-sundermann.com</div>
