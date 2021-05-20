@@ -8,7 +8,7 @@
                 <div class="footerCard__baseStats">
                     <ul>
                         <li>Raphael Sundermann</li>
-                        <li>raphael-sundermann@gmail.com</li>
+                        <li>raphael.sundermann@gmail.com</li>
                     </ul>
                 </div>
                 <div class="footerCard__madeWith">
