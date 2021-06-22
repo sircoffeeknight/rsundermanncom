@@ -13,7 +13,7 @@
             <p>So I dedicate some of my free time towards educating myself in new fields. Sometimes I just take a sneak peek or I dive in a bit deeper to use it right away.</p>
             <p>One thing I can safely say about myself is, that I'm always ready to learn new things and to advance in the fields I already know. I'm aware that I'm not the "best developer" there is <span style="font-size: 1rem">yet</span>. But that won't stop me from advancing as much as I can.</p>
         </base-post>
-        <base-post type="briefcase">
+        <!-- <base-post type="briefcase">
             <template v-slot:header>Job search & preferences</template>
             <p>The Covid-19 pandemic has hit everyone in one way or another. And even though my contact with the virus was limited to the news, it still affected me.</p>
             <p>Before the pandemic hit the World, I moved from Berlin back into my Hometown. Unfortunately, Covid made it harder to find a job.</p>
@@ -25,10 +25,10 @@
             <p>I'm not in it for the <span class="branding__color__bright">money</span>! Yes earning a lot is nice. And to be fair the pandemic has left some holes that will take some time to fix. But that does not change the fact, that I prefer a company that <span class="branding__color__bright">focuses</span> on a <span class="branding__color__bright">great</span> working <span class="branding__color__bright">environment</span> rather than just throwing money at the developers.</p>
             <p>I'll be honest with you. I prefer <span class="branding__color__bright">remote</span> work. Don't get me wrong, I like a great and engaging Team. But there is just something with remote work that suits me. Though remote work is optional.</p>
             <p>Right now I'm <span class="branding__color__bright">not</span> able to move. For reasons, I will not disclose here. So if you are interested, but need me to move to a different city, I , unfortunately, won't be able to.</p>
-        </base-post>
+        </base-post> -->
         <base-post type="gamepad">
             <template v-slot:header>What I like to do (aka Hobbies)</template>
-            <p>Do companies still ask you that? Well, I want to tell you anyway.</p>
+            <!-- <p>Do companies still ask you that? Well, I want to tell you anyway.</p> -->
             <p><span class="branding__color__bright">I. LOVE. VIDEOGAMES</span></p>
             <p>I know what you are thinking. "Oh, that young developer likes Videogames. I'm shocked!" It is not the most creative thing, nor rare. But it is true. From Prototector on the NES to Mario, Zelda, Freelancer, WoW, or COD. I loved and love games.</p>
             <p>I like to mess with things. Not tinker, I am awful at handy work. But I come up with so many ideas for software that neither I nor others need. So I usually end up with one or two soon-to-be-forgotten projects every month.</p>

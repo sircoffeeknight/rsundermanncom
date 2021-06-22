@@ -62,7 +62,7 @@ main {
     border-bottom: 25px solid transparent;
 }
 
-.timeline__list > .timeline__item:first-child {
+/* .timeline__list > .timeline__item:first-child {
     z-index: 999;
     left: 45.8%;
     display: flex;
@@ -70,7 +70,7 @@ main {
     width: 7rem;
     border-radius: 100%;
     border: 5px solid white;
-}
+} */
 
 .timeline__list > .timeline__item:last-child {
     z-index: 999;

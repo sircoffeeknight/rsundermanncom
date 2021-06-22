@@ -13,10 +13,10 @@ export default {
         return {
             timelineData: [
                 {
-                    title: 'You?',
-                    time: '',
-                    position: '',
-                    skill: [],
+                    title: 'portvier GmbH',
+                    time: 'July 2021 - Current',
+                    position: 'Backend Developer',
+                    skill: ['PHP', 'MySQL', 'javaScript', 'HTML', 'CSS', 'GIT'],
                     graduation: '',
                     description: '',
                 },
