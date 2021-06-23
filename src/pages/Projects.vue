@@ -26,6 +26,13 @@ export default {
                     link: '',
                     repository: ''
                 },
+                {
+                    title: 'MyDash',
+                    description: 'A Dashboard meant mainly for personal use. Implementation of a selection of different APIs.',
+                    skills: ['HTML', 'CSS', 'PHP', 'Symfony', 'MySQL', 'React', 'javaScript'],
+                    link: '',
+                    repository: ''
+                }
             ]
         }
     }
