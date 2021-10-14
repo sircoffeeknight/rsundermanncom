@@ -44,12 +44,48 @@
                 </div>
                 <div class="meCard__text">
                     <p class="branding__color__bright "> Hey there!</p>
-                    <p>I am <span class="branding__color__bright">Raphael Sundermann</span> a developer with 4 years professional experience! I started to learn development at the age of 13. Back then I worked on simple Websites and CMS projects. I love software and I am constantly learning new stuff!</p>
+                    <p>I am <span class="branding__color__bright">Raphael Sundermann</span> a developer with {{ years }} years professional experience! I started to learn development at the age of 13. Back then I worked on simple Websites and CMS projects. I love software and I am constantly learning new stuff!</p>
                 </div>
             </div>
         </div>    
     </div>
 </template>
+<script>
+
+export default {
+    data() {
+        return {
+            portvier: {
+                start: '01 July 2021'
+            },
+            deliveryHero: {
+                start: '01 Dec 2018',
+                end: '01 Mar 2020'
+            },
+            rsundermann: {
+                start: '01 Aug 2017',
+                end: '01 May 2018',
+            },
+            additional: {
+                years: 2
+            },
+            years: null,
+        }
+    },
+    methods: {
+        getProfessionallYears() {
+            const deliveryHero =  new Date( new Date( Date.parse( this.deliveryHero['end'] ) ) - new Date( Date.parse( this.deliveryHero['start'] ) ) ).getFullYear()  - 1970 + 1;
+            const rsundermann =  new Date( new Date( Date.parse( this.rsundermann['end'] ) ) - new Date( Date.parse( this.rsundermann['start'] ) ) ).getFullYear()  - 1970 + 1;
+            const portvier = new Date( new Date() - new Date( Date.parse( this.portvier['start'] ) ) ).getFullYear()  - 1970 + 1;
+            console.log(portvier);
+            this.years = deliveryHero + portvier + rsundermann + this.additional['years'];
+        },
+    },
+    created() {
+        this.getProfessionallYears();
+    }
+}
+</script>
 
 <style scoped>
 
