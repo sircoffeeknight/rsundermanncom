@@ -30,44 +30,44 @@
 </template>
 
 <script>
-import emailjs from 'emailjs-com';
-import emailjs_load from './emailjs_data.vue';
+// import emailjs from 'emailjs-com';
+// import emailjs_load from './emailjs_data.vue';
 
-export default {
-    data() {
-        return {
-            securityCheck: null,
-            name: null,
-            email: null,
-            message: null,
-            personal_name: null,
-            sendSuccess: false,
-        }
-    },
-    methods: {
-        sendEmail(e) {
-                if(this.securityCheck == 9) {
-                    emailjs.sendForm(emailjs_load.data().service_id, emailjs_load.data().template_id, e.target, emailjs_load.data().user_id)
-                .then(() => {
-                    this.sendSuccess = true;
-                }, (error) => {
-                    console.log('FAILED TO SEND MAIL...', error);
-                    this.sendSuccess = false;
-                });
-                this.name = null;
-                this.email = null;
-                this.message = null;
-                this.personal_name = null;
-                this.securityCheck = null;
-            }
-        },
-    },
-    computed: {
-        currentRouteName() {
-            return this.$route.name;
-        },
-    }
-}
+// export default {
+//     data() {
+//         return {
+//             securityCheck: null,
+//             name: null,
+//             email: null,
+//             message: null,
+//             personal_name: null,
+//             sendSuccess: false,
+//         }
+//     },
+//     methods: {
+//         sendEmail(e) {
+//                 if(this.securityCheck == 9) {
+//                     emailjs.sendForm(emailjs_load.data().service_id, emailjs_load.data().template_id, e.target, emailjs_load.data().user_id)
+//                 .then(() => {
+//                     this.sendSuccess = true;
+//                 }, (error) => {
+//                     console.log('FAILED TO SEND MAIL...', error);
+//                     this.sendSuccess = false;
+//                 });
+//                 this.name = null;
+//                 this.email = null;
+//                 this.message = null;
+//                 this.personal_name = null;
+//                 this.securityCheck = null;
+//             }
+//         },
+//     },
+//     computed: {
+//         currentRouteName() {
+//             return this.$route.name;
+//         },
+//     }
+// }
 </script>
 
 <style scoped>

@@ -5,14 +5,14 @@
                 
             </div>
             <div class="meCard__info">
-                <div class="meCard__baseStats">
+                <!-- <div class="meCard__baseStats">
                     <ul>
                         <li>Name: Raphael Sundermann</li>
                         <li>Born: 12/22/1994</li>
                         <li>Living in: 48485 Neuenkirchen, NRW - Germany</li>
                         <li>Status: Employed</li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="meCard__tags">
                     <div class="os">
                         <base-tag type="os" content="Windows"></base-tag>

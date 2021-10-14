@@ -1,13 +1,13 @@
 <template>
     <main>
-        <section class="contact__choose">
+        <!-- <section class="contact__choose">
             <div>
                 <router-link class="contact__routerB" to="/recruiter"><font-awesome-icon icon="user-secret" size="4x" />Recruiter</router-link>
                 <router-link class="contact__routerB" to="/company"><font-awesome-icon icon="building" size="4x" />Company</router-link>
                 <router-link class="contact__routerB" to="/others"><font-awesome-icon icon="users" size="4x" />Others</router-link>
             </div>
-        </section>
-        <router-view></router-view>
+        </section> -->
+        <!-- <router-view></router-view> -->
         <section class="contact__social">
                 <a class="contact__linkedIn" href="https://linkedin.com/in/raphael-sundermann-765606148" target="_blank"><font-awesome-icon :icon="['fab' ,'linkedin']" size="4x" /></a>
                 <a class="contact__twitter" href="https://twitter.com/SirCoffeeKnight" target="_blank"><font-awesome-icon :icon="['fab' ,'twitter']" size="4x" /></a>
