@@ -33,27 +33,27 @@ export default {
                 //     link: '',
                 //     repository: ''
                 // }
+                 {
+                    title: 'My-New-World.Space',
+                    description: 'Both the Addon and the Bot will be hosted by myself. Both services will use an API as well as an Management Plattform. Both of these will be provided in the final Part of my New World Project. The Website will serve as an display, configuration and information plattform for all users.',
+                    skills: ['Symfony', 'MySQL', 'python'],
+                    link: 'https://my-new-world.space/',
+                    repository: 'https://github.com/sircoffeeknight/nw-space'
+                },
                 {
                     title: 'New World Addon',
                     description: 'Working on an Addon for the Game made by AGS. The Idea is to provide multiple QoL Features for users. Right now there is no official way to add an addon to the game. Thus this project is only a planned project.',
                     skills: [],
-                    link: '',
+                    link: 'https://addons.my-new-world.space/',
                     repository: ''
                 },
                 {
                     title: 'New World Discord Bot',
                     description: 'The Bot will work directly with the addon (as soon as possible) but it also provides stand-alone features. The Bot is meant to be used for: Company Gold Management, Planning of [Raids, Dungeons, Wars], Marketplace.',
                     skills: ['python'],
-                    link: '',
+                    link: 'https://bot.my-new-world.space/',
                     repository: 'https://github.com/sircoffeeknight/nw-bot'
                 },
-                {
-                    title: 'New World Web-App',
-                    description: 'Both the Addon and the Bot will be hosted by myself. Both services will use an API as well as an Management Plattform. Both of these will be provided in the final Part of my New World Project. The Website will serve as an display, configuration and information plattform for all users.',
-                    skills: ['Symfony', 'MySQL', 'python'],
-                    link: '',
-                    repository: 'https://github.com/sircoffeeknight/nw-management'
-                }
             ]
         }
     }
